@@ -1,0 +1,2 @@
+language = "java10"
+run = "set -e; javac -cp .:./lib/* -d . src/*.java; java -cp .:./lib/* Main"
